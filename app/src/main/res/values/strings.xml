@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">StoppageReminder</string>
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exit</string>
+    <string name="unknown_geofence_transition">Transition</string>
+    <string name="geofence_transition_notification_text">Notification Text</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="help">Help</string>
+    <string name="domestic_violence_prevention">Domestic Violence Prevention</string>
+    <string name="emergency_mail_label">Send Emergency Mails</string>
+    <string name="about_emergency_mail_sender">Send emergency mails to trusted contacts with just two clicks</string>
+    <string name="backup_evidences_label">Backup Evidences</string>
+    <string name="about_backup_evidences">Send all your evidences such as clicked pictures to another trusted mail id for backup</string>
+    <string name="government_acts">Government Acts</string>
+    <string name="about_government_acts">Know about government acts against domestic violence</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="setup_backup_mail">Send to Backup Mail</string>
+    <string name="setup_emergency_mail">Send to Emergency Mail</string>
+    <string name="know_about_government_laws">Know about government laws</string>
+    <string name="note">Note: Your mail and Password are required to send emergency mails to your trusted contacts and backup.</string>
+    <string name="title_activity_domestic_violence_actions">DomesticViolenceActionsActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="description">Domestic violence and emotional abuse are behaviors used by one person in a relationship to control the other. Partners may be married or not married; heterosexual, gay, or lesbian; living together, separated or dating.Violence can be criminal and includes physical assault (hitting, pushing, shoving, etc.), sexual abuse (unwanted or forced sexual activity), and stalking. Although emotional, psychological and financial abuse are not criminal behaviors, they are forms of abuse and can lead to criminal violence.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="about">An application that sends you alert when you have arrived your destination. All you need to do is choose the location from the map.</string>
+</resources>

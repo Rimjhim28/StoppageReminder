@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.stoppagereminder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBqbXbEFLQ8tfLi7YY1qvtsYupFRR6rNZc" />
+
+        <activity android:name=".EnterLocationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutActivity" />
+
+        <activity android:name=".DomesticViolenceIntroActivity"
+            android:label="Domestic Violence Prevention"/>
+
+        <receiver android:name=".GeofenceBroadcastReciever" />
+
+        <activity android:name=".DomesticViolenceMainActivity"
+            android:label="Domestic Violence Prevention"/>
+
+        <activity android:name=".SetupBackupEmergencyMail"
+            android:label="Domestic Violence Prevention"/>
+
+        <activity android:name=".SetupUserMail"
+            android:label="Domestic Violence Prevention"/>
+
+        <activity android:name=".DomesticViolenceEmergencySender"
+            android:label="Domestic Violence Prevention"/>
+
+        <activity android:name=".DomesticViolenceGovernmentActivity"
+            android:label="Domestic Violence Prevention"/>
+
+        <activity android:name=".DomesticViolenceLawDescriptionActivity"
+            android:label="Domestic Violence Prevention"/>
+
+        <receiver android:name=".EmergencyWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/emergency_widget_info" />
+        </receiver>
+
+        <activity android:name=".DomesticViolenceBackupActivity"
+            android:label="Domestic Violence Prevention"/>
+
+    </application>
+
+</manifest>

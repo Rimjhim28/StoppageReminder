@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "874045393986",
+    "firebase_url": "https://stoppagereminder2-1e585.firebaseio.com",
+    "project_id": "stoppagereminder2-1e585",
+    "storage_bucket": "stoppagereminder2-1e585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874045393986:android:77242aa5520b532c",
+        "android_client_info": {
+          "package_name": "com.example.android.stoppagereminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874045393986-ir9qt0t287bctebji9hspkn9po0lpboq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZxkEGXEj5_beHExMBYqEJngtnJSVP39o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
