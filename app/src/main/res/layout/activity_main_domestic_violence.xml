@@ -20,7 +20,8 @@
         android:layout_marginTop="76dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintHorizontal_bias="1.0" />
+        app:layout_constraintHorizontal_bias="1.0"
+        android:background="@drawable/btn_bcg"/>
 
     <Button
         android:id="@+id/btn_setup_emergence_mail"
@@ -34,7 +35,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp" />
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/btn_bcg"/>
 
     <Button
         android:id="@+id/btn_laws"
@@ -49,6 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_setup_emergence_mail"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintHorizontal_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.0"
+        android:background="@drawable/btn_bcg"/>
 
 </android.support.constraint.ConstraintLayout>

@@ -75,7 +75,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/btn_bcg"/>
 
     <Button
         android:id="@+id/btn_skip"
@@ -85,7 +86,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView10" />
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        android:background="@drawable/btn_bcg"/>
 
     <Button
         android:id="@+id/btn_clear"
@@ -95,7 +97,8 @@
         android:layout_marginLeft="16dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView10" />
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        android:background="@drawable/btn_bcg"/>
 
 
 </android.support.constraint.ConstraintLayout>
