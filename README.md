@@ -1,4 +1,4 @@
-# StoppageReminder
+# Stoppage Reminder
 
 ### Description
 This is multi way app that could remind user the locations they need to get off when they are at a distance of 100 meters from it. Additionally, the app has an hidden functionality that helps the victims of domestic violence by helping them to backup the evidences in a separate mail, send emergency mails to trusted contacts and provides information about government laws 
