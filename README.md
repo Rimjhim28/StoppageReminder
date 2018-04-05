@@ -12,7 +12,7 @@ against domestic violence.
 
 ### Screenshots
 
-Primary Screen:
+Main Screen:
 
 <img src="https://user-images.githubusercontent.com/26908195/37224715-4f3dbce0-23fa-11e8-9201-8d0115c24141.png" width ="300" height = "500">
 
